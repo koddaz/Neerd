@@ -12,6 +12,7 @@ struct NeerdApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .modifier(CustomFontModifier())
         }
     }
 }
